@@ -16,7 +16,7 @@
 | 组件 | 装到哪 | 作用 | 下载 |
 |---|---|---|---|
 | **桥接插件**（服务端） | AstrBot | 身份绑定、机器配对、主动消息双发、记忆检索、对话回传、远程推送 | [astrbot_plugin_coop_bridge-v0.9.1.zip](https://github.com/aldebaranmm/astrbot_plugin_coop_bridge/releases/download/v0.9.1/astrbot_plugin_coop_bridge-v0.9.1.zip) |
-| **cortico-world-astrbot** | Coopanion 桌宠 | 刷视频主体：开浏览器、点开看、按你的收藏挑片、读收藏 | [cortico-world-astrbot-0.9.4.zip](https://github.com/aldebaranmm/cortico-world-astrbot/releases/download/v0.9.4/cortico-world-astrbot-0.9.4.zip) |
+| **cortico-world-astrbot** | Coopanion 桌宠 | 刷视频主体：开浏览器、点开看、按你的收藏挑片、读收藏 | [cortico-world-astrbot-0.9.5.zip](https://github.com/aldebaranmm/cortico-world-astrbot/releases/download/v0.9.5/cortico-world-astrbot-0.9.5.zip) |
 | **cortico-world-web** | Coopanion 桌宠 | 网页/接口取数（`web_fetch`、`web_bilibili`） | [cortico-world-web-0.1.0.zip](https://github.com/aldebaranmm/cortico-world-web/releases/download/v0.1.0/cortico-world-web-0.1.0.zip) |
 
 > 版本号会更新，上面是写这份文档时的最新版。
@@ -75,7 +75,7 @@
 - **AstrBot 侧改代码/装插件后必须重启实例**，仪表盘的重载对新代码无效
 - **主动消息不开口**：检查 `wakeMode` 是不是 `flush`。老版本默认 `piggyback`，那种模式下要等你先跟桌宠说话才会捎带出来
 - **跨机器连接**：默认只监听 `127.0.0.1:6190`，别的机器要连就用 frp 穿透，别直接暴露端口
-- **更新地址**：`worlds.astrbot.updateUrl` 默认留空 = 这台机器不检查更新。想开自动更新就填你自己的更新服务器
+- **更新地址**：`worlds.astrbot.updateUrl` 默认留空 = 这台机器不检查更新。想开自动更新就填一个目录地址（`http://`、`https://` 都行），里面放 `version.json` + 安装包
 
 ---
 
