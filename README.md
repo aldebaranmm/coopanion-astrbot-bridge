@@ -16,7 +16,7 @@
 | 组件 | 装到哪 | 作用 | 下载 |
 |---|---|---|---|
 | **桥接插件**（服务端） | AstrBot | 身份绑定、机器配对、主动消息双发、记忆检索、对话回传、远程推送 | [astrbot_plugin_coop_bridge-v0.9.3.zip](https://github.com/aldebaranmm/astrbot_plugin_coop_bridge/releases/download/v0.9.3/astrbot_plugin_coop_bridge-v0.9.3.zip) |
-| **cortico-world-astrbot** | Coopanion 桌宠 | 刷视频主体：开浏览器、点开看、按你的收藏挑片、读收藏 | [cortico-world-astrbot-0.9.5.zip](https://github.com/aldebaranmm/cortico-world-astrbot/releases/download/v0.9.5/cortico-world-astrbot-0.9.5.zip) |
+| **cortico-world-astrbot** | Coopanion 桌宠 | 刷视频主体：开浏览器、点开看、按你的收藏挑片、读收藏 | [cortico-world-astrbot-0.9.8.zip](https://github.com/aldebaranmm/cortico-world-astrbot/releases/download/v0.9.8/cortico-world-astrbot-0.9.8.zip) |
 | **cortico-world-web** | Coopanion 桌宠 | 网页/接口取数（`web_fetch`、`web_bilibili`） | [cortico-world-web-0.1.0.zip](https://github.com/aldebaranmm/cortico-world-web/releases/download/v0.1.0/cortico-world-web-0.1.0.zip) |
 
 > 版本号会更新，上面是写这份文档时的最新版。
