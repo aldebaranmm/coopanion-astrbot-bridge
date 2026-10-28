@@ -24,6 +24,26 @@
 
 ---
 
+## 还需要：AstrBot 侧再装两个插件
+
+上面三个只是"桥"，**桥要有东西可查、有话可推**才有用。服务端还需要：
+
+| 插件 | 必需？ | 干什么 | 不装会怎样 |
+|---|---|---|---|
+| [astrbot_plugin_proactive_chat](https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat) | **强烈建议** | 让机器人主动找你说话 | 主动消息只发到 QQ，**桌宠不会冒泡** |
+| [astrbot_plugin_livingmemory](https://github.com/lxfight-s-Astrbot-Plugins/astrbot_plugin_livingmemory) | **至少装一个** | 事实/主题记忆（主力） | 桌宠查记忆只会返回空 |
+| [astrbot_plugin_angel_memory](https://github.com/kawayiYokami/astrbot_plugin_angel_memory) | 可选 | 判断类记忆 | — |
+| [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) | 可选 | 个人记忆 + 黑话词典 | — |
+
+**记忆源一个都不装的话，插件不报错，但 `recall` 永远查不到东西** —— 这是最容易让人以为"装坏了"的坑。
+
+装完 proactive_chat 还要配两处，否则桌宠仍然不冒泡：
+把它加进私聊白名单 `friend_settings.session_list`，并把客户端的 `wakeMode` 设成 `flush`。
+
+作者实机版本：proactive_chat v1.2.6 / livingmemory 2.8.2 / angel_memory 2.0.4 / self_learning 4.4.3
+
+---
+
 ## 快速开始（三步）
 
 **1. 服务端** —— 把桥接插件解压到 AstrBot 的插件目录，**重启 AstrBot 实例**才生效。
